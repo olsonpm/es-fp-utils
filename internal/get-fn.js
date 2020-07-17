@@ -1,4 +1,4 @@
-import getType from './get-type'
+import getType from './get-type.js'
 
 export default (typeToFn, something, utilName) => {
   const type = getType(something),
